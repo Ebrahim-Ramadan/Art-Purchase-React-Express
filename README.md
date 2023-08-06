@@ -100,6 +100,7 @@ The server listens on port 3000 and exposes an API endpoint for sending purchase
  "id": "123"
 }
 }
+```
 <br>
 Client Usage
 The client displays a modal that allows users to confirm purchases by providing their email address. Press the "Purchase" button to open the modal, enter a valid email address, and click "Confirm." The application will send an email to the specified address with purchase details.
