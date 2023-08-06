@@ -1,0 +1,55 @@
+button#follow {
+    background-color: rgba(23, 22, 22, 0.555);
+    border: 1px solid #bc2a8d;
+    padding: 5px;
+    position: relative;
+    width: 7.2em;
+    height: 2em;
+    transition: 0.5s;
+    font-size: 19px;
+    border-radius: 0.4em;
+  }
+  
+  button#follow a {
+    text-decoration: none;
+    position: absolute;
+    top: 0.2em;
+    left: 1em;
+    margin: 0;
+    padding: 0;
+    transition: .5s;
+    color: #bc2a8d;
+    font-weight: bold;
+
+  }
+  
+  button#follow svg {
+    position: absolute;
+    top: 0.55em;
+    right: 0.5em;
+    margin: 0;
+    padding: 2px;
+    opacity: 0;
+    transition: 0.5s;
+    height: 1em;
+    fill: #fff
+  }
+  
+  button#follow:hover a {
+    left: 0.55em;
+    color: #fff;
+  }
+  
+  button#follow:hover svg {
+    opacity: 1;
+  }
+  
+  button#follow:hover {
+    background-color: #bc2a8d;
+  }
+  
+  .followBar{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+  }
