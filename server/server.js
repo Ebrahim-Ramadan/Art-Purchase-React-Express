@@ -32,6 +32,9 @@ app.post('/send-email', (req, res) => {
     <img src="${imgData.url}" alt="Purchased Image" />
     <p>Description: ${imgData.description}</p>
     <p>id of ${imgData.id}</p>
+        <br/>
+    <p>Free Mock API data on <a href='https://www.slingacademy.com/article/sample-photos-free-fake-rest-api-for-practice/'>slingacademy API</a></p>
+    
     </strong>
     <p style="opacity:0.5">Ebrahim Ramadan
     <br/>
