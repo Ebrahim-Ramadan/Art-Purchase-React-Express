@@ -1,11 +1,13 @@
 import React from 'react';
 
+const MIN = 6; // MINimum value
+const MAX = 50; // MAXimum value
 
 const MainPage = () => {
   const generateRandomPosition = (width, height) => {
     return {
       top: Math.random() * (window.innerHeight - height),
-      left: Math.random() * (window.innerWidth - width),
+      left: Math.random() * (window.innerWidth /1.8- width),
     };
   };
 
@@ -17,9 +19,10 @@ const MainPage = () => {
 
   React.useEffect(() => {
     let isMounted = true;
+    const offset = Math.floor(Math.random() * (MAX - MIN) + MIN);
 
     const fetchImages = async () => {
-      const response = await fetch(`https://api.slingacademy.com/v1/sample-data/photos?offset=5&limit=30`);
+      const response = await fetch(`https://api.slingacademy.com/v1/sample-data/photos?offset=${offset}&limit=10`);
       const data = await response.json();
 
       if (isMounted) {
@@ -36,12 +39,12 @@ const MainPage = () => {
   }, []); // Empty dependency array ensures this effect runs only once on component mounts
 
   return (
-    <div style={{ position: 'absolute', width: '100%', height: '100%' }}>
+    <div style={{ display: 'flex', justifyContent: 'flex-start', alignItems: 'flex-start', width: '50%', height: '100%' }}>
       {imgs && imgs.length > 0 ? (
         <div className="homepage">
           {imgs.map((img, id) => {
-            const width = generateRandomSize(100, 300);
-            const height = generateRandomSize(100, 300);
+            const width = generateRandomSize(200, 200);
+            const height = generateRandomSize(200, 200);
             const { top, left } = generateRandomPosition(width, height);
             return (
               <div key={id}>
@@ -49,8 +52,8 @@ const MainPage = () => {
                   alt={id + 1}
                   src={img.url}
                   style={{
-                    borderRadius:'5px',
-                    transition: '0.5s',
+                    borderRadius:'7px',
+                    transition: '0.5s ease-in',
                     cursor: 'zoom-in',
                     position: 'absolute',
                     top: `${top}px`,

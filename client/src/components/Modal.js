@@ -64,8 +64,10 @@ function ChildModal({imgData}) {
   };
   const handleCloseChild = () => {
     setOpen(false);
-    handleSendEmail()
-    toastify('Purchased, Mailing rn')
+    if ( handleSendEmail()) {
+      toastify('Purchased, Mailing rn')
+    }
+
   };
 
 
@@ -79,7 +81,7 @@ function ChildModal({imgData}) {
       </Button>
       <Modal
         open={open}
-        onClose={handleCloseChild}
+        onClose={  ()=>  setOpen(false)}
         aria-labelledby="child-modal-title"
         aria-describedby="child-modal-description"
       >
@@ -162,7 +164,7 @@ export default function NestedModal() {
 
   return (
     <div>
-      <Button variant="outlined" size="medium" onClick={handleOpen}>DO A PURCHASE - ctrl+ (/)</Button>
+      <Button variant="outlined" size="medium" onClick={handleOpen}>MAKE A PURCHASE - ctrl+ (/)</Button>
       <Modal
         open={open}
         onClose={handleClose}

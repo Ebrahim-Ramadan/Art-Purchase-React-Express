@@ -8,6 +8,7 @@ button#follow {
     transition: 0.5s;
     font-size: 19px;
     border-radius: 0.4em;
+    margin-left: 5px;
   }
   
   button#follow a {
@@ -50,6 +51,7 @@ button#follow {
   
   .followBar{
     display: flex;
-    justify-content: center;
+    justify-content: end;
     padding: 10px;
+    margin-bottom: 50px;
   }

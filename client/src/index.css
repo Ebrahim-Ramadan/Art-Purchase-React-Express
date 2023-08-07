@@ -5,7 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: rgba(0, 0, 0, 0.945);
+  background-color: #0E1525;
 }
 
 code {
@@ -20,8 +20,9 @@ object-fit: cover;
 margin: 20px;
 border-radius: 5px;
 }
+
 .homepage img:hover{
-opacity: 0.9;
+opacity: 1;
 transform: scale(1.2);
 z-index: 999;
 }

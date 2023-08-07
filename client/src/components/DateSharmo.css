@@ -1,0 +1,28 @@
+.Sharmo-Container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 200px;
+    margin: 100px 0px;
+    padding: 50px;
+    background-color: #323248db;
+}
+label{
+    color:rgb(245,249,252);
+    font-weight: bold;
+}
+.date-img{
+    border-radius: 10px;
+}
+.Datesharmo>*{
+    margin: 10px;
+}
+select, input{
+    background-color:rgb(220, 220, 220);
+    margin: 5px;
+    border-radius:5px;
+    width: 100%;
+}
+div#ADDbtn{
+    display: flex;
+    justify-content: center;
+}

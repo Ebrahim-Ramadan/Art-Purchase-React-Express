@@ -1,7 +1,8 @@
 import React from 'react';
 import Follow from './components/Follow';
-import MainPage from './components/MainPage';
 import { ToastContainer } from 'react-toastify';
+import { DateSharmo } from './components/DateSharmo';
+import { MapChart } from './components/MapChart'
 
 const App = () => {
   return (
@@ -9,10 +10,10 @@ const App = () => {
         <div className='NavBar'>
       <Follow />
     </div>
-    <div>
-        <MainPage/>
-      </div>
+    <MapChart/>
+        <DateSharmo />
       <ToastContainer />
+
     </>
   );
 };

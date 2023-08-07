@@ -1,14 +1,12 @@
 .background-image {
     background-image: url("../assets/gold.jpg");
-    background-size: cover; /* Adjusts the image size to cover the container */
-    background-position: center center; /* Centers the image within the container */
+    background-size: cover;
+    background-position: center center; 
     width: 100%;
     height: 70vh;
     transition: 0.1s;
     border-radius: 5px;
-    /* display: flex;
-    flex-direction: column;
-    justify-content: space-between; */
+
   }
   .PurchaseCloseBtns>*{
     width: fit-content;
