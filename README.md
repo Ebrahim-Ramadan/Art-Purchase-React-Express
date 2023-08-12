@@ -5,7 +5,7 @@ Paper Contract fpr purchasing artistic pictures free
 Added some sections for the homepage: some random pieces of Art and their selling areas in the north america,
 <br>
 
-https://github.com/Ebrahim-Ramadan/Art-Purchase-React-Express/assets/65041082/6fe3303d-e4ee-47bb-a426-cc7b09e90226
+![Art Purchase-updated](https://github.com/Ebrahim-Ramadan/Art-Purchase-React-Express/assets/65041082/d9d1a34b-276d-4aa6-af1c-c99a7e94df3f)
 
 <br>
 Previous versions:
