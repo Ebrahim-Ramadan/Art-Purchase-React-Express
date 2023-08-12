@@ -1,8 +1,14 @@
 # Art-Purchase-React-Express
 Paper Contract fpr purchasing artistic pictures free
 
+<br>
+Added some sections for the homepage: some random pieces of Art and their selling areas in the north america,
+<br>
+![Art Purchase- 02-min (1) (1)](https://github.com/Ebrahim-Ramadan/Art-Purchase-React-Express/assets/65041082/6fe3303d-e4ee-47bb-a426-cc7b09e90226)
 
-
+<br>
+Previous versions:
+<br>
 https://github.com/Ebrahim-Ramadan/Art-Purchase-React-Express/assets/65041082/881b82df-5ae6-46db-9f81-d64ac15578cb
 
 <br>
