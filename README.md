@@ -1,6 +1,6 @@
 # Art-Purchase-React-Express
 Paper Contract fpr purchasing artistic pictures free
-
+<br>
 <br>
 Added some sections for the homepage: some random pieces of Art and their selling areas in the north america,
 <br>
